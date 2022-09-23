@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Wes.RandomNameGenerator
+namespace Wes.NameGenerator
 {
     public interface INameGenerator
     {

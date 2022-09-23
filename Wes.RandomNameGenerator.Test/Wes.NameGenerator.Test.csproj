@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Wes.RandomNameGenerator\Wes.RandomNameGenerator.csproj" />
+    <ProjectReference Include="..\Wes.RandomNameGenerator\Wes.NameGenerator.csproj" />
   </ItemGroup>
 
 </Project>

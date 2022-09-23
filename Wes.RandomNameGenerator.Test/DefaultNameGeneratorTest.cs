@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestPlatform.Utilities;
 using Xunit.Abstractions;
 
-namespace Wes.RandomNameGenerator.Test;
+namespace Wes.NameGenerator.Test;
 
 public class DefaultNameGeneratorTest
 {

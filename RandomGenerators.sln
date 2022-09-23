@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wes.RandomNameGenerator", "Wes.RandomNameGenerator\Wes.RandomNameGenerator.csproj", "{D33DB28F-3010-4D38-A63E-9B7531CB0CD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wes.NameGenerator", "Wes.RandomNameGenerator\Wes.NameGenerator.csproj", "{D33DB28F-3010-4D38-A63E-9B7531CB0CD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wes.RandomNameGenerator.Test", "Wes.RandomNameGenerator.Test\Wes.RandomNameGenerator.Test.csproj", "{B8A69E02-07B3-4C42-BFA9-5B985AD9835F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wes.NameGenerator.Test", "Wes.RandomNameGenerator.Test\Wes.NameGenerator.Test.csproj", "{B8A69E02-07B3-4C42-BFA9-5B985AD9835F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{376B40FE-903B-4D1D-9A7A-851F9B1F117C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
