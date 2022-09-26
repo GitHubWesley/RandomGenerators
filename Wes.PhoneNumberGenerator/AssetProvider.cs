@@ -35,7 +35,7 @@ namespace Wes.PhoneNumberGenerator
 
     internal static class AssetConsts
     {
-        public const string Directory = "/Assets";
+        public const string Directory = "Assets";
 
         public const string GlobalContryCodes = "global_contry_code.json";
 
@@ -49,13 +49,11 @@ namespace Wes.PhoneNumberGenerator
         public string DialCode { get; set; }
 
         public string IsoCode { get; set; }
-
-        public string Flag { get; set; }
     }
 
     internal class UsAreaCodeDto
     {
-        public string Code { get; set; }
+        public int Code { get; set; }
 
         public string State { get; set; }
     }

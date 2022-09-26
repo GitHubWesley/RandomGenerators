@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Wes.NameGenerator
+namespace Wes.NameGenerator.Contracts
 {
     public interface INameCollection
     {

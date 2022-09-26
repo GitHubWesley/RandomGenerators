@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Wes.NameGenerator.Contracts;
+using Wes.Utility.Extensions;
 
 namespace Wes.NameGenerator
 {

@@ -15,6 +15,8 @@ public class AssetProviderTest
     [Fact]
     public void Test1()
     {
-        var results = new AssetProvider();
+        var results = new AssetProvider().GlobalContryCodes;
+        var results2 = new AssetProvider().UsAreaCodeDtos;
+        var result3 = new USTelephoneNumberGenerator().Generate();
     }
 }

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Wes.NameGenerator
+namespace Wes.Utility.Extensions
 {
-    internal static class Extensions
+    public static class Extensions
     {
         public static T GetOneRandomly<T>(this IEnumerable<T> collection, Random random = null)
         {
@@ -17,3 +17,4 @@ namespace Wes.NameGenerator
         }
     }
 }
+

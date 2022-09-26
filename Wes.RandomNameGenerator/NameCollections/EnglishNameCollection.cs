@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Wes.NameGenerator.Contracts;
 
-namespace Wes.NameGenerator
+namespace Wes.NameGenerator.NameCollections
 {
     public class EnglishNameCollection : INameCollection
     {

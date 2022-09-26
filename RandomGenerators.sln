@@ -10,12 +10,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{376B40FE-903B-4D1D-9A7A-851F9B1F117C}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
-		Wes.PhoneNumberGeneratorTest\Wes.PhoneNumberGeneratorTest.csproj = Wes.PhoneNumberGeneratorTest\Wes.PhoneNumberGeneratorTest.csproj
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wes.PhoneNumberGenerator", "Wes.PhoneNumberGenerator\Wes.PhoneNumberGenerator.csproj", "{DFC94ABC-F044-49A1-BF11-193CFEB31354}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wes.PhoneNumberGenerator.Test", "Wes.PhoneNumberGenerator.Test\Wes.PhoneNumberGenerator.Test.csproj", "{1870ABBD-E1F1-432F-9741-D9148C5D5C67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wes.PhoneNumberGenerator.Test", "Wes.PhoneNumberGenerator.Test\Wes.PhoneNumberGenerator.Test.csproj", "{1870ABBD-E1F1-432F-9741-D9148C5D5C67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wes.Utility.Extensions", "Wes.Utility.Extensions\Wes.Utility.Extensions.csproj", "{20096553-15ED-440C-ABB8-47D8DC33B1E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +40,10 @@ Global
 		{1870ABBD-E1F1-432F-9741-D9148C5D5C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1870ABBD-E1F1-432F-9741-D9148C5D5C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1870ABBD-E1F1-432F-9741-D9148C5D5C67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20096553-15ED-440C-ABB8-47D8DC33B1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20096553-15ED-440C-ABB8-47D8DC33B1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20096553-15ED-440C-ABB8-47D8DC33B1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20096553-15ED-440C-ABB8-47D8DC33B1E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestPlatform.Utilities;
+using Wes.NameGenerator.NameCollections;
 using Xunit.Abstractions;
 
 namespace Wes.NameGenerator.Test;
