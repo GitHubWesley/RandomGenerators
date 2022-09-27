@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wes.NameGenerator", "Wes.RandomNameGenerator\Wes.NameGenerator.csproj", "{D33DB28F-3010-4D38-A63E-9B7531CB0CD8}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wes.NameGenerator.Test", "Wes.RandomNameGenerator.Test\Wes.NameGenerator.Test.csproj", "{B8A69E02-07B3-4C42-BFA9-5B985AD9835F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{376B40FE-903B-4D1D-9A7A-851F9B1F117C}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
@@ -16,7 +12,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wes.PhoneNumberGenerator", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wes.PhoneNumberGenerator.Test", "Wes.PhoneNumberGenerator.Test\Wes.PhoneNumberGenerator.Test.csproj", "{1870ABBD-E1F1-432F-9741-D9148C5D5C67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wes.Utility.Extensions", "Wes.Utility.Extensions\Wes.Utility.Extensions.csproj", "{20096553-15ED-440C-ABB8-47D8DC33B1E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wes.Utility.Extensions", "Wes.Utility.Extensions\Wes.Utility.Extensions.csproj", "{20096553-15ED-440C-ABB8-47D8DC33B1E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wes.NameGenerator", "Wes.NameGenerator\Wes.NameGenerator.csproj", "{2A590D9A-0B7F-4AF8-B65E-61342D3F1D3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wes.NameGenerator.Test", "Wes.NameGenerator.Test\Wes.NameGenerator.Test.csproj", "{96B3832C-590D-4C7A-98F8-2CCA91022BC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,14 +24,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D33DB28F-3010-4D38-A63E-9B7531CB0CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D33DB28F-3010-4D38-A63E-9B7531CB0CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D33DB28F-3010-4D38-A63E-9B7531CB0CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D33DB28F-3010-4D38-A63E-9B7531CB0CD8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B8A69E02-07B3-4C42-BFA9-5B985AD9835F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B8A69E02-07B3-4C42-BFA9-5B985AD9835F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B8A69E02-07B3-4C42-BFA9-5B985AD9835F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B8A69E02-07B3-4C42-BFA9-5B985AD9835F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DFC94ABC-F044-49A1-BF11-193CFEB31354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DFC94ABC-F044-49A1-BF11-193CFEB31354}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFC94ABC-F044-49A1-BF11-193CFEB31354}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -44,6 +36,14 @@ Global
 		{20096553-15ED-440C-ABB8-47D8DC33B1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20096553-15ED-440C-ABB8-47D8DC33B1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20096553-15ED-440C-ABB8-47D8DC33B1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A590D9A-0B7F-4AF8-B65E-61342D3F1D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A590D9A-0B7F-4AF8-B65E-61342D3F1D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A590D9A-0B7F-4AF8-B65E-61342D3F1D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A590D9A-0B7F-4AF8-B65E-61342D3F1D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96B3832C-590D-4C7A-98F8-2CCA91022BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B3832C-590D-4C7A-98F8-2CCA91022BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B3832C-590D-4C7A-98F8-2CCA91022BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B3832C-590D-4C7A-98F8-2CCA91022BC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
